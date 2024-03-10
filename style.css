@@ -12,6 +12,20 @@ body {
     background-color: hsl(218, 23%, 16%);
 }
 
+.attribution{
+    position: absolute;
+    bottom: 0;
+    background-color: hsl(217, 19%, 38%);
+    width: 100%;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(150, 100%, 66%);
+    text-decoration: underline;
+
+}
+
 .advice {
     position: relative;
     background-color: hsl(217, 19%, 24%);
@@ -131,5 +145,17 @@ body {
 
     .advice-conteudo{
         width: 80%;
+    }
+    
+    .attribution{
+        position: absolute;
+        bottom: 0;
+        background-color: hsl(217, 19%, 38%);
+        width: 100%;
+        color: white;
+    }
+    
+    .attribution a {
+        color: hsl(150, 100%, 66%);
     }
 }
