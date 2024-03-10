@@ -1,0 +1,135 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.advice {
+    position: relative;
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width:200px;
+    min-height: 300px;
+    max-height:500px ;
+    border-radius: 20px;
+}
+
+.pattern-desktop {
+    display: block;
+}
+
+.pattern-mobile {
+    display: none;
+}
+
+.advice-conteudo{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    min-width: 300px;
+    max-width: 450px;
+    text-align: center;
+
+}
+
+.advice-conteudo p {
+    margin: 0;
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 100%);
+    font-size: 28px;
+    line-height: 1.5;
+   
+}
+
+.advice .botao {
+    position: absolute;
+    bottom: -10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    transition: 1s;
+
+}
+
+.advice .botao:hover {
+    background-color: hsl(150, 100%, 50%);
+    box-shadow: 1px 1px 20px 10px hsl(150, 100%, 30%);
+    
+    
+}
+
+.animacao {
+    transform: rotate(180deg);
+    
+}
+
+
+
+.advice h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    background-color: hsl(217, 19%, 38%);
+    width: 100%;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(150, 100%, 66%);
+}
+
+@media (max-width: 450px) {
+    .advice{
+        width: 80%;
+    }
+
+    .advice-conteudo p{
+        font-size: 20px;
+    }
+
+    .pattern-mobile {
+        display: block;
+    }
+
+    .pattern-desktop {
+        display: none;
+    }
+
+    .advice-conteudo{
+        width: 80%;
+    }
+}
