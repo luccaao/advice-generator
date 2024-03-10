@@ -117,12 +117,17 @@ body {
 .attribution{
     position: absolute;
     bottom: 0;
+    text-align: center;
     background-color: hsl(217, 19%, 38%);
+    font-size: 14px;
+    box-sizing: border-box;
     width: 100%;
+    padding: 5px;
     color: white;
 }
 
 .attribution a {
+    
     color: hsl(150, 100%, 66%);
 }
 
@@ -146,16 +151,21 @@ body {
     .advice-conteudo{
         width: 80%;
     }
-    
+
     .attribution{
         position: absolute;
         bottom: 0;
+        text-align: center;
         background-color: hsl(217, 19%, 38%);
+        font-size: 14px;
+        box-sizing: border-box;
         width: 100%;
+        padding: 5px;
         color: white;
     }
     
     .attribution a {
+        text-align: center;
         color: hsl(150, 100%, 66%);
     }
 }
